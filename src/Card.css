@@ -1,0 +1,121 @@
+.App {
+    /* text-align: center; */
+  }
+  
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card{
+    width: 300px;
+    /* border: 1px solid red; */
+    padding: 16px;
+    margin: 20px;
+    height: 450px;
+  }
+  
+  .card img{
+    width: 70%;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+  }
+  .image-class{
+    width:316px;
+height:158.5px;
+border-radius:6px
+    
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .card-title{
+    display: flex;
+    gap: 10px;
+  }
+  .card-title2{
+    line-height:18.2px;
+  }
+
+  .title1{
+    background-color: rgb(246, 240, 240);
+    Padding:0px 5px 0px 5px;
+  }
+
+  .title2-1 {
+      text-align: left;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 18px;
+      /* line-height:23.4px; */
+  }
+
+  .title2-2 {
+      text-align: left;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18.2px;
+  }
+
+  .checked {
+    color: orange;
+  }
+  .title2-3{
+    text-align: left;
+    font-weight:400;
+font-size:12px;
+line-height:15.6px;
+  }
+  .material-icons{
+    font-size: 15px;
+  }
+
+  .title2-4{
+    text-align: left;
+    font-weight: 400;
+font-size:14px;
+  }
+
+  .title2-5{
+    text-align: left;
+    font-weight: 400;
+font-size:12px;
+color: #7B7B7B;
+  }
+
+  .title3-1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 21px;
+    color: #ED510C;
+    display: flex;
+  }
+  .title3-2{
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7B7B7B;
+    align-items: center;
+    display: flex;
+  }
+  .title3-3{
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ED510C;
+    display: flex;
+    background-color: #FFCBB5;
+    align-items: center;
+    height: 20px;
+    /* padding: 0px 1px 0px 1px; */
+  }
+
+  .last-items{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    line-height: 0px;
+  }
